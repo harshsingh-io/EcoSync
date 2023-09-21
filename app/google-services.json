@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "114094564046",
+    "project_id": "ecosync-a4915",
+    "storage_bucket": "ecosync-a4915.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:114094564046:android:032f28fe0d87a96b67a69f",
+        "android_client_info": {
+          "package_name": "com.codeenemy.ecosync"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCk4zGlBByu7KqfMTIkg8udULTevtH5AT8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
