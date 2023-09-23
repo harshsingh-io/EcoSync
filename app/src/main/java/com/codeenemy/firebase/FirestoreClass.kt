@@ -20,46 +20,48 @@ class FirestoreClass {
             .set(userInfo, SetOptions.merge())
             .addOnSuccessListener {
                 activity.userRegisteredSuccess()
-            }.addOnFailureListener {
-                e->
+            }.addOnFailureListener { e ->
                 Log.e(activity.javaClass.simpleName, "Error writing document.", e)
             }
     }
-    fun signInUser(activity: Activity) {
+
+    fun signInUser(activity: SignInActivity) {
         mFireStore.collection(Constants.USERS)
             .document(getCurrentUserId())
             .get()
             .addOnSuccessListener { document ->
                 val loggedInUser = document.toObject(User::class.java)!!
-                when(activity){
-                    is SignInActivity->{
-                        activity.signInSuccess(loggedInUser)
+                activity.signInSuccess(loggedInUser)
+            }.addOnFailureListener { e ->
+                activity.hideProgressDialog()
 
-                    }
-                    is MainActivity -> {
-                        activity.updateNavigationUserDetails(loggedInUser)
-                    }
-                }
-            }.addOnFailureListener {
-                    e->
-                when(activity){
-                    is SignInActivity->{
-                        activity.hideProgressDialog()
-
-                    }
-                    is MainActivity -> {
-                        activity.hideProgressDialog()
-                    }
-                }
-                Log.e("SignInUser", "Error occur while registering",e)
+                Log.e("SignInUser", "Error occur while registering", e)
             }
     }
+
+    //
+//        fun signInUser(activity: SignInActivity) {
+//            mFireStore.collection(Constants.USERS)
+//                .document(getCurrentUserId())
+//                .get()
+//                .addOnSuccessListener { document ->
+//                    Log.e(
+//                        activity.javaClass.simpleName, document.toString()
+//                    )
+//
+//                    val loggedInUser = document.toObject(User::class.java)!!
+//
+//                    activity.signInSuccess(loggedInUser)
+//                }
+//                .addOnFailureListener { e ->
+//                    Log.e(
+//                        activity.javaClass.simpleName,
+//                        "Error while getting loggedIn user details",
+//                        e
+//                    )
+//                }
+//        }
     fun getCurrentUserId(): String {
-        var currentUser = FirebaseAuth.getInstance().currentUser
-        var currentUserID = ""
-        if (currentUser != null) {
-            currentUserID = currentUser.uid
-        }
-        return currentUserID
+        return FirebaseAuth.getInstance().currentUser!!.uid
     }
 }

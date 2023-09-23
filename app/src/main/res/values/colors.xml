@@ -7,6 +7,7 @@
     <color name="colorPrimary">#053B50</color>
     <color name="colorSecondary">#176B87</color>
     <color name="colorHighlight">#64CCC5</color>
+    <color name="colorHighlights">#95C4FF</color>
     <color name="colorBackground">#EEEEEE</color>
 
     <color name="primary_text_color">#363A43</color>

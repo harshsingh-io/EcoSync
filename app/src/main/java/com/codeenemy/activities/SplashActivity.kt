@@ -22,9 +22,7 @@ class SplashActivity : AppCompatActivity() {
         binding?.tvAppName?.typeface = typeFace
 
         Handler().postDelayed({
-            var currentUserID = FirestoreClass().getCurrentUserId()
-
-                startActivity(Intent(this, IntroActivity::class.java))
+            startActivity(Intent(this, IntroActivity::class.java))
             finish()
         }, 2500)
     }

@@ -41,5 +41,6 @@
     <string name="date">22-09-2023</string>
     <string name="tvPowerUsage">Power Usages</string>
     <string name="tvConsumptionReport">Your power consumption report here</string>
+    <string name="hello_user">Harsh Singh</string>
 
 </resources>
