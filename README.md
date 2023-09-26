@@ -1,4 +1,3 @@
-
 # EcoSync - Electricity Tracking App
 
 EcoSync is a versatile and innovative app designed to empower users to manage their electricity consumption efficiently. Users can set up profiles, monitor real-time usage data from smart meters or manual inputs, and receive immediate notifications to encourage sustainable habits. The app caters to diverse applications, from household bill reduction and carbon footprint reduction to emergency alerts and policy support. Powered by Android, Kotlin, Firebase, and hardware like NodeMCU, EcoSync promotes resource conservation, cost savings, and sustainability for individuals, businesses, and governments.
