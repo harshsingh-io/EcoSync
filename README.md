@@ -100,7 +100,7 @@ Join us in our mission to build a sustainable future with EcoSync!
 
 ---
 
-For more information and to contribute to the project, visit our GitHub repository [here](link_to_github_repository).
+For more information and to contribute to the project, visit our GitHub repository [here](https://github.com/harshsingh-io/EcoSync).
 
 For questions and support, contact Harsh (your contact information).
 
