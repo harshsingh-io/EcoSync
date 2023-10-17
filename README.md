@@ -2,7 +2,17 @@
 
 EcoSync is a versatile and innovative app designed to empower users to manage their electricity consumption efficiently. Users can set up profiles, monitor real-time usage data from smart meters or manual inputs, and receive immediate notifications to encourage sustainable habits. The app caters to diverse applications, from household bill reduction and carbon footprint reduction to emergency alerts and policy support. Powered by Android, Kotlin, Firebase, and hardware like NodeMCU, EcoSync promotes resource conservation, cost savings, and sustainability for individuals, businesses, and governments.
 
-![Logo](https://github.com/harshsingh-io/EcoSync/blob/main/Picsart_23-09-21_00-32-38-136.png)
+<p align="center">
+    <img src="https://github.com/harshsingh-io/EcoSync/blob/main/Picsart_23-09-21_00-32-38-136.png" alt="Logo" width="200">
+</p>
+
+## Table of Contents
+
+1. [Introduction](#ecosync---electricity-tracking-app)
+2. [How EcoSync Works](#how-ecosync-works)
+3. [Demo](#demo)
+4. [Use Cases](#use-cases)
+5. [Technologies and Tools](#technologies-and-tools)
 
 ## How EcoSync Works
 
@@ -29,6 +39,14 @@ Protecting user data is a top priority. EcoSync ensures the security and privacy
 
 ### Results
 EcoSync's impact includes efficient resource usage, cost savings, and a significant contribution to sustainability efforts.
+
+## Demo
+<p align="center">
+    <img src="https://github.com/harshsingh-io/EcoSync/blob/main/demo.gif" alt="Hardware Demo" width="500">
+</p>
+<p align="center">
+    <img src="https://github.com/harshsingh-io/EcoSync/blob/main/demo.gif" alt="Hardware Demo" width="500">
+</p>
 
 ## Use Cases
 
