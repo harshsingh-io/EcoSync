@@ -44,27 +44,8 @@ EcoSync's impact includes efficient resource usage, cost savings, and a signific
 <p align="center">
     <img src="https://github.com/harshsingh-io/EcoSync/blob/main/demo.gif" alt="Hardware Demo" width="500">
 </p>
-<p align="center">
-    <img src="https://github.com/harshsingh-io/EcoSync/blob/main/Startup.png" alt="Startup Screen" height="500">
-</p>
-<p align="center">
-    <img src="https://github.com/harshsingh-io/EcoSync/blob/main/Splash_screen.png" alt="Splash Screen" height="500">
-</p>
-<p align="center">
-    <img src="https://github.com/harshsingh-io/EcoSync/blob/main/Authentication_page.png" alt="Authentication Screen" height="500">
-</p>
-<p align="center">
-    <img src="https://github.com/harshsingh-io/EcoSync/blob/main/Sign_in.png" alt="Sign In Page" height="500">
-</p>
-<p align="center">
-    <img src="https://github.com/harshsingh-io/EcoSync/blob/main/HomePage.png" alt="Home Screen" height="500">
-</p>
-<p align="center">
-    <img src="https://github.com/harshsingh-io/EcoSync/blob/main/StatisticPage.png" alt="Statistic Screen" height="500">
-</p>
-<p align="center">
-    <img src="https://github.com/harshsingh-io/EcoSync/blob/main/UserProfile.png" alt="User Profile Screen" height="500">
-</p>
+
+<img src="https://github.com/harshsingh-io/EcoSync/blob/main/Startup.png" alt="Startup Screen" width="180" height="400"><img src="https://github.com/harshsingh-io/EcoSync/blob/main/Splash_screen.png" alt="Splash Screen" width="180" height="400"><img src="https://github.com/harshsingh-io/EcoSync/blob/main/Authentication_page.png" alt="Authentication Screen" width="180" height="400"><img src="https://github.com/harshsingh-io/EcoSync/blob/main/Sign_in.png" alt="Sign In Page" width="180" height="400"><img src="https://github.com/harshsingh-io/EcoSync/blob/main/HomePage.png" alt="Home Screen" width="180" height="400"><img src="https://github.com/harshsingh-io/EcoSync/blob/main/StatisticPage.png" alt="Statistic Screen" width="180" height="400"><img src="https://github.com/harshsingh-io/EcoSync/blob/main/UserProfile.png" alt="User Profile Screen" width="180" height="400">
 
 ## Use Cases
 
